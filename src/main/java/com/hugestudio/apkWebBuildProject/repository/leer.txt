@@ -1,0 +1,4 @@
+El custom repository y su implementacion(impl) es necesaria si deseamos crear nuestras propias consultas
+en Spring mongoDB https://www.mkyong.com/spring-data/spring-data-add-custom-method-to-repository/ ya que el crud que trae por defecto mongoDBSpring es
+muy basico: import org.springframework.data.mongodb.repository.MongoRepository
+que hace un crud automatico con solo instanciar la interfaz de MongoRepository
